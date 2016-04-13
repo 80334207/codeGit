@@ -9,5 +9,8 @@
 
 测试4：测试git暂存去，在未提交之前git不会生成conmmit id。
 
+测试5：修改进入暂存区后，通过git reset撤销暂存区修改操作。在未进入暂存区，通过git checkout撤销文本修改内容。
+提交后，可以通过git reflog还原到最近一次commit状态版本。
+
 }
 
